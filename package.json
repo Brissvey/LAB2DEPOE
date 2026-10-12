@@ -1,0 +1,13 @@
+
+{
+    "name": "catalogo-libros",
+    "version": "1.0.0",
+    "description": "Catalogo de libros con TypeScript y arquitectura MVC",
+    "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+    },
+    "devDependencies": {
+    "typescript": "^5.9.3"
+    }
+}
