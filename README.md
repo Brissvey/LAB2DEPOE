@@ -1,0 +1,60 @@
+# Catálogo de Libros MVC
+
+## Descripción
+Proyecto desarrollado en TypeScript para administrar un catálogo personal de libros. Permite registrar libros y llevar un control de las lecturas mediante una interfaz web sencilla.
+
+## Funcionalidades
+- Registrar libros con título, autor y año de publicación.
+- Buscar libros por título o autor.
+- Filtrar libros según su estado de lectura.
+- Marcar libros como leídos o pendientes.
+- Editar la información de los libros.
+- Eliminar libros del catálogo.
+- Guardar los datos en el almacenamiento local del navegador para conservarlos al recargar la página.
+
+## Tecnologías utilizadas
+- HTML5
+- CSS3
+- TypeScript
+- JavaScript
+- Node.js y npm
+
+## Arquitectura
+El proyecto utiliza el patrón MVC (Modelo-Vista-Controlador) para organizar el código:
+
+- **Models:** representa la información de los libros.
+- **Views:** administra la interfaz y la presentación de los libros.
+- **Controllers:** gestiona las acciones del usuario y conecta la vista con el modelo.
+- **Services:** se encarga del almacenamiento y la gestión de los datos.
+- **Styles:** contiene los estilos visuales de la aplicación.
+
+## Instalación y ejecución
+
+1. Clonar el repositorio:
+
+   ```bash
+   git clone URL_DEL_REPOSITORIO
+   ```
+
+2. Entrar a la carpeta del proyecto:
+
+   ```bash
+   cd catalogo-libros
+   ```
+
+3. Instalar las dependencias:
+
+   ```bash
+   npm install
+   ```
+
+4. Compilar TypeScript:
+
+   ```bash
+   npm run build
+   ```
+
+5. Abrir `index.html` con Live Server desde Visual Studio Code.
+
+## Autor
+Proyecto académico desarrollado como práctica de programación con TypeScript y arquitectura MVC.
