@@ -33,7 +33,7 @@ El proyecto utiliza el patrón MVC (Modelo-Vista-Controlador) para organizar el 
 1. Clonar el repositorio:
 
    ```bash
-   git clone URL_DEL_REPOSITORIO
+   git clone (https://github.com/Brissvey/LAB2DEPOE.git)
    ```
 
 2. Entrar a la carpeta del proyecto:
