@@ -9,7 +9,7 @@ Proyecto desarrollado en TypeScript para administrar un catálogo personal de li
 - Filtrar libros según su estado de lectura.
 - Marcar libros como leídos o pendientes.
 - Editar la información de los libros.
-- Eliminar libros del catálogo.
+- Eliminar libros del catálogo con confirmación.
 - Guardar los datos en el almacenamiento local del navegador para conservarlos al recargar la página.
 
 ## Tecnologías utilizadas
@@ -33,28 +33,34 @@ El proyecto utiliza el patrón MVC (Modelo-Vista-Controlador) para organizar el 
 1. Clonar el repositorio:
 
    ```bash
-   git clone (https://github.com/Brissvey/LAB2DEPOE.git)
+   git clone https://github.com/Brissvey/LAB2DEPOE.git
    ```
 
-2. Entrar a la carpeta del proyecto:
+2. Entrar a la carpeta del repositorio:
 
    ```bash
-   cd catalogo-libros
+   cd LAB2DEPOE
    ```
 
-3. Instalar las dependencias:
+3. Entrar a la carpeta del proyecto, si corresponde:
+
+   ```bash
+   cd caralogo-libros
+   ```
+
+4. Instalar las dependencias:
 
    ```bash
    npm install
    ```
 
-4. Compilar TypeScript:
+5. Compilar TypeScript:
 
    ```bash
    npm run build
    ```
 
-5. Abrir `index.html` con Live Server desde Visual Studio Code.
+6. Abrir `index.html` con Live Server desde Visual Studio Code.
 
 ## Autor
 Proyecto académico desarrollado como práctica de programación con TypeScript y arquitectura MVC.
