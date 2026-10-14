@@ -30,37 +30,41 @@ El proyecto utiliza el patrón MVC (Modelo-Vista-Controlador) para organizar el 
 
 ## Instalación y ejecución
 
+### Requisitos previos
+- Tener instalado [Node.js](https://nodejs.org/).
+- Tener instalado Visual Studio Code.
+- Tener instalada la extensión **Live Server** en Visual Studio Code.
+
+### Pasos para ejecutar el proyecto
+
 1. Clonar el repositorio:
 
    ```bash
    git clone https://github.com/Brissvey/LAB2DEPOE.git
    ```
 
-2. Entrar a la carpeta del repositorio:
+2. Entrar en la carpeta del proyecto:
 
    ```bash
    cd LAB2DEPOE
    ```
 
-3. Entrar a la carpeta del proyecto, si corresponde:
-
-   ```bash
-   cd caralogo-libros
-   ```
-
-4. Instalar las dependencias:
+3. Instalar las dependencias:
 
    ```bash
    npm install
    ```
 
-5. Compilar TypeScript:
+4. Compilar el código TypeScript:
 
    ```bash
    npm run build
    ```
 
-6. Abrir `index.html` con Live Server desde Visual Studio Code.
+5. Abrir la carpeta `LAB2DEPOE` en Visual Studio Code.
 
-## Autor
-Proyecto académico desarrollado como práctica de programación con TypeScript y arquitectura MVC.
+6. Abrir el archivo `index.html` con la extensión **Live Server**.
+
+### Almacenamiento de datos
+
+Los libros se guardan en el almacenamiento local del navegador (`localStorage`). Los datos permanecen disponibles en el mismo navegador y origen, incluso después de cerrar y volver a abrir la página.
