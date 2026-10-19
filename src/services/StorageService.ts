@@ -31,7 +31,9 @@ export class StorageService {
                     libro.titulo,
                     libro.autor,
                     libro.anio,
-                    libro.leido
+                    libro.leido,
+                    libro.genero ?? "Sin género",
+                    libro.calificacion ?? 0
                 )
             );
         } catch {

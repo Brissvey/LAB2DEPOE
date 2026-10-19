@@ -13,7 +13,7 @@ export class StorageService {
             if (!Array.isArray(libros)) {
                 return [];
             }
-            return libros.map((libro) => new Libro(libro.id, libro.titulo, libro.autor, libro.anio, libro.leido));
+            return libros.map((libro) => new Libro(libro.id, libro.titulo, libro.autor, libro.anio, libro.leido, libro.genero ?? "Sin género", libro.calificacion ?? 0));
         }
         catch {
             return [];
